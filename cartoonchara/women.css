@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+.wmain {
+    --skin: #fca; 
+    --iris: #68a;
+    --hair: #fe8 #321;
+    --shirt: #eef4ff;
+    --line: rgba(80,0,0,0.15);
+    --black:rgb(0, 0, 0);
+  }
+ 
+.wmain{
+    position: absolute;
+    top: 10rem;
+    left: 0rem;
+    right:-20rem;
+    margin: auto;
+    width: 110px;
+    height: 170px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 1rem;
+   margin-top: 10px;
+    z-index: -5;
+}
+.wface{
+    width: 100%;
+    height: 130px;
+    background-color:var(--skin);
+    z-index: 1;
+margin-top: 30px;
+    border-radius: 100% 0% 53% 47% / 0% 0% 100% 100% ;
+
+
+;
+}
+.weyebrow{
+    width: 50px;
+    height: 27px;
+    position: absolute;
+    left: 1.4rem;
+   border-radius: 20px 20px 100px 100px;
+   transform: rotate(180deg);
+    background: 
+    radial-gradient( 70% 20px at  50%  20%, transparent, 90%, var( --black) 20.5%) top center;
+    top: 4rem;
+}
+.weyebrow1{
+    width: 50px;
+    height: 27px;
+    position: absolute;
+    right: 1.4rem;
+   border-radius: 20px 20px 100px 100px;
+   transform: rotate(180deg);
+    background: 
+    radial-gradient( 70% 20px at  50%  20%, transparent, 90%, var( --black) 20.5%) top center;
+    top: 4rem;
+  
+}
+
+
+.weyes1{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius:100% 0% 100% 0% / 100% 0% 100% 0% ;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4.5rem;
+    left: 1.9rem;
+    z-index: 1000;
+    overflow: hidden;
+    border-top: 4px solid;
+    border-left: 3px solid #000;
+    
+}
+
+.weyes2{
+    border-top: 4px solid;
+    border-left: 3px solid #000;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius:100% 0% 100% 0% / 100% 0% 100% 0% ;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 4.5rem;
+    right: 1.9rem;
+    overflow: hidden;
+   
+}
+
+
+
+.wpuple{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -100;
+    position: absolute;
+    top: 0rem;
+   
+}
+.wcheek {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    background: #f002;
+    border-radius: 20% 20% 100% 100%;
+    top: 6.7rem;
+    left: 4.2rem;
+    transform: translate(-50%, -50%);
+    filter: blur(1vmin)
+  }
+
+.wnose{
+    margin: auto;
+    clip-path: polygon(50% 20%, 60% 88%, 0% 85%, 55% 100%, 100% 88%);
+    width: 20px;
+    height: 45px;
+    background-color: var(--line);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5.7rem;
+}
+
+
+.wmouth{
+   
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 8.7rem;
+    width: 40px;
+    height: 8px;
+    border: 1px solid;
+    border-radius: 30px 30px 280px 280px;
+  border-bottom: 5px solid rgb(252, 165, 165);
+  border-top: 2px solid rgb(252, 165, 165);;
+    animation: mouth 3s infinite;
+   border-left: 0px ;
+   border-right: 0px;
+    overflow: hidden;
+}
+@keyframes mouth{
+    0%{
+        border-bottom: 10px solid rgb(248, 101, 101);  
+    }
+    50%{
+     
+       width: 10px;
+        height: 0px;
+        transform: translateX(15px);
+        transform: translateY(15px);
+        background-color: white;
+        border-bottom: 7px solid rgb(248, 101, 101);
+    }
+    100%{
+        border-bottom: 10px solid rgb(248, 101, 101);  
+    }
+}
+.wteeth{
+    width: 100%;
+    height: 30px;
+  background-color: rgb(131, 67, 67);
+display: flex;
+justify-content: center;
+
+}
+.wsingleteeth{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 9px;
+  height: 9px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: rgb(239, 239, 239);
+}
+.wtounge{
+    width: 140px;
+    height: 140px;
+    background-color: red;
+    margin-top: 90px;
+    z-index: 1;
+}
+
+.wear{
+    width: 20px;
+    height: 30px;
+    background-color: red;
+    border-radius: 99% 1% 41% 59% / 33% 33% 67% 67% ;
+    transform: rotate(30deg);
+   
+}
+.whair{
+    width: 95px;
+    height: 40px;
+    background: linear-gradient(-45deg, #000000 0%, #5c4242 100% );
+    position: absolute;
+    border-radius: 99% 1% 100% 0% / 100% 11% 89% 0% ;
+left: 0;
+top: 1.5rem;
+}
+.whair1{
+    width: 90px;
+    height: 40px;
+    background: linear-gradient(-75deg, #000000 0%, #5c4242 100% );
+    position: absolute;
+    border-radius:0% 100% 0% 100% / 0% 100% 0% 100% ;
+right: 0;
+top: 1.5rem;
+}
+.whair5{margin: auto;
+    width: 140px;
+    height: 130px;
+    background: linear-gradient(-95deg, #000000 0%, #5c4242 100% );
+    position: absolute;
+    z-index: -1;
+  border-radius: 10px 10px  10px 10px;
+left: 0;
+top: 2rem;
+}
+
+.whair3{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(-45deg, #e4947c 0%, #000000 100% );
+    border-radius:0% 100% 0% 100% / 0% 100% 0% 100% ;
+    position: absolute;
+    left: 0;
+    right: 1rem;
+    margin: auto;
+    top: 1.2rem;
+    z-index: -1;
+}
+.whair4{
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(-45deg, #e4947c 0%, #000000 100% );
+    border-radius:100% 0% 100% 0% / 100% 0% 100% 0% ;
+    position: absolute;
+    left: 0;
+    right: 0rem;
+    margin: auto;
+    top: 1.2rem;
+    z-index: -1;
+}
+.wneck{
+    width: 60px;
+    height: 30px;
+border-radius: 140px 140px 0px 0px ;
+background: 
+radial-gradient(70% 25px at 50% 0, transparent, 80%, var( --skin) 80.5%) top center;
+position: absolute;
+left: 0;
+right: 0;
+margin: auto;
+margin-top: -1rem;
+}
